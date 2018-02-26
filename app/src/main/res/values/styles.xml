@@ -1,0 +1,123 @@
+<resources xmlns:android="http://schemas.android.com/tools">
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="Theme.MyTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@android:color/white</item>
+    </style>
+
+    <style name="MyAlertDiaLog" parent="MaterialDrawerBaseTheme.Light.Dialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:background">@null</item>
+        <item name="android:padding">0dp</item>
+    </style>
+
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+    </style>
+
+    <style name="MyCustomToolbarStyle" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="android:textColorPrimary">@android:color/white</item>
+        <item name="android:textColorSecondary">@android:color/white</item>
+        <item name="android:textColorHint">@android:color/white</item>
+        <item name="colorControlActivated">@android:color/white</item>
+    </style>
+
+    <style name="styleProgressDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:tint">@color/colorPrimary</item>
+
+    </style>
+
+    <style name="btGmail">
+        <item name="android:text">@string/bt_gmail</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">
+            @dimen/margin_top__bt_gmail__tv_escolha_de_conta__etEmail
+        </item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textSize">@dimen/bt_gmail_textSize</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:background">@color/ic_gmail</item>
+        <item name="android:drawableLeft">@mipmap/ic_gmail</item>
+    </style>
+
+    <style name="tvEscolhaDeConta">
+        <item name="android:text">@string/tv_escolha_de_conta</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_marginTop">
+            @dimen/margin_top__bt_gmail__tv_escolha_de_conta__etEmail
+        </item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="etEmail">
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:ems">10</item>
+        <item name="android:layout_marginTop">
+            @dimen/margin_top__bt_gmail__tv_escolha_de_conta__etEmail
+        </item>
+        <item name="android:hint">@string/et_email</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">10dp</item>
+    </style>
+
+    <style name="etSenha">
+        <item name="android:inputType">textPassword</item>
+        <item name="android:ems">10</item>
+        <item name="android:hint">@string/et_senha</item>
+        <item name="android:textColorHint">@color/grey</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginLeft">@dimen/margin_left__et_email__et_senha__et_entrar
+        </item>
+    </style>
+
+    <style name="btEntrar">
+        <item name="android:text">@string/bt_entrar</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:layout_marginTop">@dimen/margin_top__bt_entrar__bt_esqueceu_sua_senha
+        </item>
+        <item name="android:textSize">@dimen/bt_entrar_text_size</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="btEsqueceuSenha" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:text">@string/bt_esqueceu_sua_senha</item>
+        <item name="android:layout_marginTop">@dimen/margin_top__bt_entrar__bt_esqueceu_sua_senha
+        </item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="btRegistrar" parent="@style/Widget.AppCompat.Button.Borderless">
+        <item name="android:text">@string/bt_registrar</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_bt_registrar</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textSize">@dimen/bt_entrar_text_size</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Theme.MyTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.MyTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>

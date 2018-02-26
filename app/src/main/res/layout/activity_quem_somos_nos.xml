@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.example.gocode.care.activities.QuemSomosNosActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tbSettingQuemsSomosNos"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_title"
+            android:text="@string/tv_sobre_title"
+            android:textColor="@color/tv_config_text_color"
+            android:textSize="@dimen/tv_sobre_title_size"
+            android:layout_marginTop="@dimen/tv_sobre_title_margin_top"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/tv_about_layout_marginLeft"/>
+
+        <View
+            android:layout_width="330dp"
+            android:layout_height="1.8dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/grey" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_t1"
+            android:text="@string/tv_t1_about_text_nome"
+            android:textColor="@color/tv_config_text_color"
+            android:textSize="@dimen/tv_t1_text_size"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/tv_about_layout_marginLeft"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_t2"
+            android:text="@string/tv_t2_about_text"
+            android:textColor="@color/tv_about_text_color"
+            android:textSize="@dimen/tv_t2_text_size"
+            android:layout_marginLeft="@dimen/tv_about_layout_marginLeft"/>
+
+        <View
+            android:layout_width="330dp"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/grey" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_t3"
+            android:text="@string/tv_t3_about_text"
+            android:textColor="@color/tv_config_text_color"
+            android:textSize="@dimen/tv_t3_text_size"
+            android:gravity="start"
+            android:textStyle="bold"
+            android:layout_marginLeft="@dimen/tv_about_layout_marginLeft"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/about_t4"
+            android:text="@string/tv_t4_about_text"
+            android:textColor="@color/tv_about_text_color"
+            android:textSize="@dimen/tv_t4_text_size"
+            android:gravity="start"
+            android:layout_marginLeft="@dimen/tv_about_layout_marginLeft"/>
+
+        <View
+            android:layout_width="330dp"
+            android:layout_height="0.5dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="@color/grey" />
+    </LinearLayout>
+</RelativeLayout>

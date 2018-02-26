@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    app:layout_scrollFlags="scroll|enterAlways">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingTop="20dp"
+        app:layout_scrollFlags="scroll|enterAlways">
+
+        <ImageView
+            android:id="@+id/ivProfileMain"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/tvLogarMain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="230dp"
+            android:text="Deseja visualizar seu perfil?"
+            android:textColor="#4e4e4e"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tvOU"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/btCadastrarMain"
+            android:layout_alignBottom="@+id/btCadastrarMain"
+            android:layout_marginEnd="21dp"
+            android:layout_marginRight="21dp"
+            android:layout_toLeftOf="@+id/btCadastrarMain"
+            android:layout_toStartOf="@+id/btCadastrarMain"
+            android:text="OU"
+            android:textColor="#4e4e4e"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btEntrarMain"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tvOU"
+            android:layout_alignBottom="@+id/tvOU"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_toLeftOf="@+id/tvOU"
+            android:layout_toStartOf="@+id/tvOU"
+            android:elevation="0dp"
+            android:text="Entre"
+            android:textAllCaps="false"
+            android:textColor="#4e4e4e"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/btCadastrarMain"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/tvLogarMain"
+            android:layout_marginEnd="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="78dp"
+            android:elevation="0dp"
+            android:text="Cadastre-se"
+            android:textAllCaps="false"
+            android:textColor="#4e4e4e"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</ScrollView>
+

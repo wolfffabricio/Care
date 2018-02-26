@@ -1,0 +1,29 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_top_image_view">100dp</dimen>
+    <dimen name="bt_entrar_text_size">20sp</dimen>
+    <dimen name="bt_gmail_textSize">17sp</dimen>
+    <dimen name="bt_esqueceu_sua_senha_layout_marginLeft">90dp</dimen>
+    <dimen name="margin_top__bt_gmail__tv_escolha_de_conta__etEmail">50dp</dimen>
+    <dimen name="margin_top__bt_entrar__bt_esqueceu_sua_senha">10dp</dimen>
+    <dimen name="margin_top_bt_registrar">35dp</dimen>
+    <dimen name="bt_gmail_layout_width">235dp</dimen>
+    <dimen name="bt_gmail_layout_height">40dp</dimen>
+    <dimen name="margin_left__et_email__et_senha__et_entrar">10dp</dimen>
+    <dimen name="app_bar_height">180dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="text_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
+    <dimen name="tv_about_layout_marginLeft">8dp</dimen>
+    <dimen name="tv_sobre_title_size">30dp</dimen>
+    <dimen name="tv_sobre_title_margin_top">70dp</dimen>
+    <dimen name="tv_t1_text_size">15dp</dimen>
+    <dimen name="tv_t2_text_size">14dp</dimen>
+    <dimen name="tv_t3_text_size">15dp</dimen>
+    <dimen name="tv_t4_text_size">14dp</dimen>
+</resources>

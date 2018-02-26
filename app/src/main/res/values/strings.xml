@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Care</string>
+    <string name="search_hint">Buscar usuários</string>
+    <string name="action_searchable_activity">Buscar usuários</string>
+    <string name="bt_gmail">Logar com o Google</string>
+    <string name="tv_escolha_de_conta">Ou logue-se com sua conta</string>
+    <string name="et_email">Email</string>
+    <string name="et_senha">Senha</string>
+    <string name="bt_entrar">Entrar</string>
+    <string name="bt_esqueceu_sua_senha">Esqueceu sua senha?</string>
+    <string name="bt_registrar">Registrar-se</string>
+    <string name="title_activity_feed">Care</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_alo">alo</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_testee">Testee</string>
+    <string name="action_delete">Rremover cookie</string>
+    <string name="tv_sobre_title">Care</string>
+    <string name="tv_t1_about_text_nome">Aplicativo Care 2016</string>
+    <string name="tv_t2_about_text">Versão 1.0</string>
+    <string name="tv_t3_about_text">Desenvolvido por Fabrício Wolff</string>
+    <string name="tv_t4_about_text">fabricionewnj@hotmail.com</string>
+</resources>

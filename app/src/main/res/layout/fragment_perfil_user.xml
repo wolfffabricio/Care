@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingLeft="16dp"
+    android:paddingTop="20dp">
+
+    <ImageView
+        android:id="@+id/ivUserMenu"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="6dp" />
+
+    <TextView
+        android:id="@+id/tvNomeMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_toRightOf="@+id/ivUserMenu"
+        android:paddingRight="16dp"
+        android:textColor="#212121"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tvVerPerfilMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvNomeMenu"
+        android:layout_below="@+id/tvNomeMenu"
+        android:paddingRight="16dp"
+        android:textColor="#999"
+        android:textSize="12sp" />
+
+    <View
+        android:id="@+id/vvDividerMenu"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_below="@+id/ivUserMenu"
+        android:layout_marginTop="20dp"
+        android:background="#999" />
+</RelativeLayout>

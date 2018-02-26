@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_cadastro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.example.gocode.care.activities.CadastroActivity">
+
+        <ImageView
+            android:id="@+id/imageCadastro"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center" />
+
+        <EditText
+            android:id="@+id/etNome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:hint="Nome completo"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/etIdade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_left__et_email__et_senha__et_entrar"
+            android:hint="Idade"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/etCpf"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_left__et_email__et_senha__et_entrar"
+            android:hint="CPF"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/etCidade"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_left__et_email__et_senha__et_entrar"
+            android:hint="Cidade"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/etEstado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_left__et_email__et_senha__et_entrar"
+            android:hint="Estado"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/etTelefone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_left__et_email__et_senha__et_entrar"
+            android:hint="Telefone"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/etDescricao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_left__et_email__et_senha__et_entrar"
+            android:hint="Descrição"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/etExperiencia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_left__et_email__et_senha__et_entrar"
+            android:hint="Experiência"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_left__et_email__et_senha__et_entrar"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/etSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_left__et_email__et_senha__et_entrar"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <EditText
+            android:id="@+id/etRepetirSenha"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_left__et_email__et_senha__et_entrar"
+            android:hint="Repetir senha"
+            android:inputType="textPassword"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey" />
+
+        <TextView
+            android:id="@+id/tvErroCadastro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textColor="@color/red"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btConfirmarCadastro"
+            android:layout_width="@dimen/bt_gmail_layout_width"
+            android:layout_height="@dimen/bt_gmail_layout_height"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorPrimary"
+            android:text="Confirmar"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textSize="@dimen/bt_entrar_text_size" />
+
+    </LinearLayout>
+</ScrollView>
+
+

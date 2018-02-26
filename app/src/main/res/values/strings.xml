@@ -16,7 +16,7 @@
     <string name="title_activity_testee">Testee</string>
     <string name="action_delete">Rremover cookie</string>
     <string name="tv_sobre_title">Care</string>
-    <string name="tv_t1_about_text_nome">Aplicativo Care 2016</string>
+    <string name="tv_t1_about_text">Aplicativo Care 2016</string>
     <string name="tv_t2_about_text">Versão 1.0</string>
     <string name="tv_t3_about_text">Desenvolvido por Fabrício Wolff</string>
     <string name="tv_t4_about_text">fabricionewnj@hotmail.com</string>

@@ -42,7 +42,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:id="@+id/about_t1"
-            android:text="@string/tv_t1_about_text_nome"
+            android:text="@string/tv_t1_about_text"
             android:textColor="@color/tv_config_text_color"
             android:textSize="@dimen/tv_t1_text_size"
             android:gravity="start"
